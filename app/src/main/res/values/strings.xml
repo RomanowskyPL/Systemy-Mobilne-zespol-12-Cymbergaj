@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Cymbergaj</string>
+    <string name="Cymbergay">Cymbergaj</string>
+    <string name="Graj">GRA</string>
+    <string name="Ustawienia">USTAWIENIA</string>
+    <string name="WyborGraczy">Wybierz ile graczy ma być:</string>
+    <string name="Gracz1">1 GRACZ</string>
+    <string name="Gracz2">2 GRACZY</string>
+    <string name="PoziomTrudnosci">Wybierz poziom trudności:</string>
+    <string name="Latwy">Łatwy</string>
+    <string name="Sredni">Średni</string>
+    <string name="Trudny">Trudny</string>
+    <string name="Powrot">Powrót</string>
+</resources>
