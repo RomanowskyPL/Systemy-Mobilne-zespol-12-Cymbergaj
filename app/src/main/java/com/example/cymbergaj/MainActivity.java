@@ -3,7 +3,6 @@ package com.example.cymbergaj;
 import android.content.Intent;
 import android.os.Bundle;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
@@ -17,16 +16,35 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Przycisk do rozpoczęcia gry
-        findViewById(R.id.buttonGra).setOnClickListener(view -> {
+        findViewById(R.id.Gra_1vsBot).setOnClickListener(view -> {
             // Corrected the Intent initialization by adding a comma to separate parameters
-            Intent intent = new Intent(MainActivity.this, LiczbaGraczy.class);
+            Intent intent = new Intent(MainActivity.this, PoziomTrudnosci.class);
             startActivity(intent);
         });
 
+        findViewById(R.id.Gra_1vs1).setOnClickListener(view -> {
+            // Corrected the Intent initialization by adding a comma to separate parameters
+            Intent intent = new Intent(MainActivity.this, GraNormalnaCustom.class);
+            startActivity(intent);
+        });
+
+
         // Przycisk do ustawień
-        findViewById(R.id.buttonUstawienia).setOnClickListener(view -> {
+        findViewById(R.id.SETTINGS).setOnClickListener(view -> {
             // Corrected the Intent initialization by adding a comma to separate parameters
             Intent intent = new Intent(MainActivity.this, Ustawienia.class);
+            startActivity(intent);
+        });
+
+        findViewById(R.id.Sklep).setOnClickListener(view -> {
+            // Corrected the Intent initialization by adding a comma to separate parameters
+            Intent intent = new Intent(MainActivity.this, Sklep.class);
+            startActivity(intent);
+        });
+
+        findViewById(R.id.Ulepszenia).setOnClickListener(view -> {
+            // Corrected the Intent initialization by adding a comma to separate parameters
+            Intent intent = new Intent(MainActivity.this, Ulepszenia.class);
             startActivity(intent);
         });
 

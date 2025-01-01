@@ -18,7 +18,7 @@ public class Ustawienia extends AppCompatActivity {
         setContentView(R.layout.activity_ustawienia);
 
         // Przycisk powrot
-        findViewById(R.id.buttonPowrot1).setOnClickListener(view -> {
+        findViewById(R.id.Powrot).setOnClickListener(view -> {
             // Corrected the Intent initialization by adding a comma to separate parameters
             Intent intent = new Intent(Ustawienia.this, MainActivity.class);
             startActivity(intent);

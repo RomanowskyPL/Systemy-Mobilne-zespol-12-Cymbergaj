@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">Cymbergaj</string>
     <string name="Cymbergay">Cymbergaj</string>
-    <string name="Graj">GRA</string>
+    <string name="Gra_1vsBot">GRA 1 VS BOT</string>
+    <string name="Gra_1vs1">GRA 1 VS 1</string>
+    <string name="Gra">GRA</string>
     <string name="Ustawienia">USTAWIENIA</string>
     <string name="WyborGraczy">Wybierz ile graczy ma być:</string>
     <string name="Gracz1">1 GRACZ</string>
@@ -11,4 +13,9 @@
     <string name="Sredni">Średni</string>
     <string name="Trudny">Trudny</string>
     <string name="Powrot">Powrót</string>
+    <string name="Sklep">SKLEP</string>
+    <string name="Gra2">GRA</string>
+    <string name="Ulepszenia">ULEPSZENIA</string>
+    <string name="NormalnaGra">NORMALNA GRA</string>
+    <string name="CustomGra">CUSTOM GRA</string>
 </resources>

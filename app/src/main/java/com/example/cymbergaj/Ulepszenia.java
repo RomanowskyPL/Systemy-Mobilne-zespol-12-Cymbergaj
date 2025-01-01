@@ -9,32 +9,29 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class LiczbaGraczy extends AppCompatActivity {
+public class Ulepszenia extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_liczba_graczy);
+        setContentView(R.layout.activity_ulepszenia);
 
-        // Przycisk dla 1 gracza
-        findViewById(R.id.buttonGracz1).setOnClickListener(view -> {
+        findViewById(R.id.Sklep3).setOnClickListener(view -> {
             // Corrected the Intent initialization by adding a comma to separate parameters
-            Intent intent = new Intent(LiczbaGraczy.this, PoziomTrudnosci.class);
+            Intent intent = new Intent(Ulepszenia.this, Sklep.class);
             startActivity(intent);
         });
 
-        // Przycisk dla 2 graczy
-        findViewById(R.id.buttonGracz2).setOnClickListener(view -> {
+        findViewById(R.id.Gra3).setOnClickListener(view -> {
             // Corrected the Intent initialization by adding a comma to separate parameters
-            Intent intent = new Intent(LiczbaGraczy.this, PoziomTrudnosci.class);
+            Intent intent = new Intent(Ulepszenia.this, MainActivity.class);
             startActivity(intent);
         });
 
-        // Przycisk powrot
-        findViewById(R.id.buttonPowrot2).setOnClickListener(view -> {
+        findViewById(R.id.SETTINGS).setOnClickListener(view -> {
             // Corrected the Intent initialization by adding a comma to separate parameters
-            Intent intent = new Intent(LiczbaGraczy.this, MainActivity.class);
+            Intent intent = new Intent(Ulepszenia.this, Ustawienia.class);
             startActivity(intent);
         });
 

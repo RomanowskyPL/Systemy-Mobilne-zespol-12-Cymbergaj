@@ -13,13 +13,19 @@
         android:theme="@style/Theme.Cymbergaj"
         tools:targetApi="31">
         <activity
+            android:name=".GraNormalnaCustom"
+            android:exported="false" />
+        <activity
+            android:name=".Ulepszenia"
+            android:exported="false" />
+        <activity
+            android:name=".Sklep"
+            android:exported="false" />
+        <activity
             android:name=".Ustawienia"
             android:exported="false" />
         <activity
             android:name=".PoziomTrudnosci"
-            android:exported="false" />
-        <activity
-            android:name=".LiczbaGraczy"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
